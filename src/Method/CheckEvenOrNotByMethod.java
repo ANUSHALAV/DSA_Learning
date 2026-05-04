@@ -15,5 +15,6 @@ public class CheckEvenOrNotByMethod {
         }else{
             System.out.print("Number is Odd");
         }
+        sc.close();
     }
 }
