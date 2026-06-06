@@ -5,9 +5,9 @@ public class PerfectNumber {
         int num = 6;
         int ans = 1;
 
-        for(int i =2;i*i<=num;i++){
+        for(int i =2;i<num;i++){
             if(num%i==0){
-                ans = ans*i;
+                ans = ans+i;
             }
         }
 
